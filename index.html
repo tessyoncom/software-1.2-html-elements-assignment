@@ -4,55 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My webpage</title>
+    <link rel="stylesheet" href="normalize.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
   </head>
   <body>
-    <h1>Biodata Information</h1>
-<div>
-    <div>
-        <h3>First Name: Tesilimi</h3>
-        <h3>Last Name: Yusuf</h3>
-        <h3>Github URL:</h3>
-        <h3>Location:Lagos, Nigeria</h3>
-      </div>
 
-      <div>
-        <img src="photo.png" alt="Tesilimi Yusuf Photo">
-    </div>
-
-</div>
-    
-    <div>
-      <h2>Hobbies</h2>
+    <table cellspacing="10">
+        <tr>
+          <td>
+            <img src="photo.png" width="100" alt="Tesilimi's photo" />
+          </td>
+          <td>
+            <h1>Biodata Information</h1>
+            <h2>Tesilimi Yusuf</h2>
+            <h4>
+              <em
+                >Director, Digital Transformation at
+                <a href="https://unitedcapitalplcgroup.com/"
+                  >United Capital Plc</a
+                >
+              </em>
+            </h4>
+            <h4>Location: Lagos, NIgeria</h4>
+            <p>I am an exceptionally awesome person 😊</p>
+          </td>
+        </tr>
+      </table>
+      <hr />
+      <h3>Hobbies</h3>
       <ul>
-        <li>Football</li>
-        <li>Reading</li>
-        <li>Hiking</li>
+        <li>Technology and people management</li>
+        <li>Doctorate research</li>
+        <li>Front-end software development</li>
+        <li>Global adventures</li>
       </ul>
-    </div>
-   
-    <p>
-      I kind of love coding but I never really had time to learn it. I think
-      this year will be different as I have had to eventually pay a fortune to
-      take this w3 bootcamp. I hope this is going to be the turning point. It is
-      taking a lot of my time but I am sure it will be worth it. Now let me get
-      back to the work. Code, code and more code.
-    </p>
+      <hr />
+      <h3>Work Experience</h3>
+      <table>
+        <th>Dates</th>
+        <th>Work</th>
+        <tr>
+          <td>2021 - Date</td>
+          <td>United Capital Plc</td>
+        </tr>
+        <tr>
+          <td>2014 - 2021</td>
+          <td>Venture Garden Group</td>
+        </tr>
+        <tr>
+          <td>2011 - 2014</td>
+          <td>Welcome Financial Services Limited</td>
+        </tr>
+      </table>
+  
+      <hr />
+      <h3>Skills</h3>
+      <table>
+        <tr>
+          <td>General Management</td>
+          <td>🏅🏅🏅🏅🏅</td>
+        </tr>
+        <tr>
+          <td>Graphic Design</td>
+          <td>🏅🏅🏅🏅🏅</td>
+        </tr>
+        <tr>
+          <td>Web Application Development</td>
+          <td>🏅🏅🏅</td>
+        </tr>
+        <tr>
+          <td>Life Coach</td>
+          <td>🏅🏅🏅🏅</td>
+        </tr>
+      </table>
 
-    <div> 
-        <h3>A form implementation </h3>
-
-        <form>
-            <label for="fname">Your Name:</label><br>
-            <input type="text" id="name" name="User_name"> <br>
-            <label for="mail">Email:</label><br>
-            <input type="email" id="mail" name="user_email"> <br>
-            <label for="msg">Comments:</label><br>
-            <textarea id="msg" name="user_message"></textarea> <br>
-            <input type="submit" value="submit"> <br>
-        </form>
-
-
-    </div>
   </body>
 </html>
